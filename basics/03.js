@@ -31,5 +31,40 @@ console.log(booleanIsLoggedIn);
 let number = 123
 
 let stringNumber = String(number)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+///////////////Operations//////////////////////
+
+let module = 4
+let negvalue = -module
+// console.log(negvalue);
+
+// let name = "Asmit"
+// let greeting = "Good Morning "
+
+// let str3 = greeting + name
+// console.log(str3);
+
+// console.log(1+2);
+// console.log("1"+2);
+// console.log(1 + "2");
+// console.log(1 + 2 + "3");
+// console.log("1" + 2 + 3);
+
+ console.log(+true);
+//  console.log(+false);
+//  console.log(+"");
+//  console.log(+" ");
+//  console.log(+undefined);
+//  console.log(+null);
+//  console.log(+"Asmit");
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 231
+gameCounter++;
+console.log(gameCounter);
+
