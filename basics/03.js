@@ -40,6 +40,7 @@ let stringNumber = String(number)
 let module = 4
 let negvalue = -module
 // console.log(negvalue);
+// output -4
 
 // let name = "Asmit"
 // let greeting = "Good Morning "
