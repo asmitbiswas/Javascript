@@ -43,37 +43,11 @@ console.log(url.includes('google'));
 
 console.log(url.includes('yahoo'));
 
+console.log( 'bye');
+
 // the whole output
 /*
-Good Morning. My name is Asmit and I have 3 repos
-g
-{}
-13
-GTASANANDREAS
-gtasanandreas
-n
-8
-[String: '']
-gtasana
-Hello World
-https://www.google.com/Asmit-Kumar
-true
-PS D:\Javascript\basics> node "d:\Javascript\basics\strings.js"
-Good Morning. My name is Asmit and I have 3 repos
-g
-{}
-13
-GTASANANDREAS
-gtasanandreas
-n
-8
-[String: '']
-gtasana
-Hello World
-https://www.google.com/Asmit-Kumar
-true
-false
-PS D:\Javascript\basics> node "d:\Javascript\basics\strings.js"
+
 Good Morning. My name is Asmit and I have 3 repos
 g
 {}
