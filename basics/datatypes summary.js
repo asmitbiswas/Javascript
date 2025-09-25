@@ -46,4 +46,37 @@ console.log(typeof villans);
 
 
 
- console.log( heros + villans );
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack and heap memory
+
+let myJob = "Startup"
+
+let anotherJob = myJob
+anotherJob = "Freelancer"
+
+console.log(myJob);
+console.log(anotherJob);
+
+let userOne = {
+    email: "Asmit@gmail.com",
+    upi: "Asmit@upi"
+}
+
+let userTwo = userOne
+userTwo.email = "Asmitbiswas1308@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+// stack memory -> primitive type
+
+// heap memory -> reference type
+
+/* stack memory = does not allow to change the original value
+it creates a new copy in the memory for the new value */
+
+
+// heap memory = allows to change the original value. it alwaye gives a 
+// reference of the original value
+// not a copy of the original value
