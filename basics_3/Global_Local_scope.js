@@ -36,19 +36,21 @@ if (true) {
         // console.log(username + website);
     }
     // console.log(website);
-}
+} // block scope
 
 // console.log(username);
 
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
+//  interesting 
 
 
 console.log(addone(5))
 
 function addone(num){
     return num + 1
-}
+} 
+
+// outer code = global scope
 
 
 
