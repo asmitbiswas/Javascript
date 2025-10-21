@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmit</title>
+</head>
+<body style = "background-color: black; color:#fff">
+    
+</body>
+<script>
+    const lET = document.createElement('div')
+    console.log(lET)
+    lET.className = "main"
+    lET.id = Math.round(Math.random() * 100 + 1)
+    lET.setAttribute ("Title", "generated title")
+    lET.style.backgroundColor = "Orange"
+    lET.style.padding = "14px"
+    // lET.innerHTML = "Asmit is a young programmer"
+    const t = document.createTextNode("Asmit is a young programmer")
+    
+    lET.appendChild(t)
+
+    document.body.appendChild(lET)
+    
+</script>
+</html>
