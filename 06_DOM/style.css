@@ -1,0 +1,11 @@
+.bg-black{
+    background-color: black;
+    color: white; 
+}
+
+.hello{
+    display: flex; 
+    justify-content: center;
+        
+}
+
