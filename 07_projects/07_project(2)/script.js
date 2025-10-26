@@ -19,5 +19,5 @@ form.addEventListener("submit", (e) => {
         results.innerHTML = `The BMI is ${bmi}`
         
 
-  
+
 })
