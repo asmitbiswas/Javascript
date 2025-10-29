@@ -11,7 +11,9 @@ const randomColor = function () {
 let intervalId;
 const startChangingColor = function () {
 
-    intervalId = setInterval(changeBGColor, 0.1561 )
+    if(!intervalId){
+        intervalId = setInterval(changeBGColor, 0.1561 )
+    }
    
 
     function changeBGColor(){
