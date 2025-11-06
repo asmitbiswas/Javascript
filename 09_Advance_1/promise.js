@@ -76,16 +76,23 @@ async () => {
     }
 }
 
-async function getAllUsers(){
-    try {
-        const res = await fetch('https://jsonplaceholder.typicode.com/users')
-        console.log(res)
+// async function getAllUsers(){
+//     try {
+//         const res = await fetch('https://jsonplaceholder.typicode.com/users')
+//         console.log(res)
 
-        const data = await res.json()
-    }
-    catch(error){
-        console.log("E:", error)
-    }
-}
+//         const data = await res.json()
+//     }
+//     catch(error){
+//         console.log("E:", error)
+//     }
+// }
 
-getAllUsers()
+// getAllUsers()
+
+fetch('https://api.github.com/users/asmibiswas')
+.then((res) => {
+    return res
+})
+.then((data) => console.log(data))
+.catch((error) => console.log(error))
